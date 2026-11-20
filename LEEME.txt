@@ -1,0 +1,7 @@
+1) Crea un repositorio NUEVO y VACIO en GitHub.
+2) Descomprime este zip y sube TODO su contenido a la RAIZ del repo
+   (www, package.json, capacitor.config.json y la carpeta oculta .github).
+   Si .github no aparece al arrastrar: en GitHub usa Add file > Create new file,
+   escribe  .github/workflows/build-apk.yml  y pega el contenido de ese archivo.
+3) Actions > Construir APK > Run workflow. Descarga el artefacto al terminar.
+Borra cualquier otro workflow (android.yml, build.yml) para que no choquen.
